@@ -1,20 +1,60 @@
 {
-  "name": "node-modules-issue",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.0"
+  "name": "rdm-frontend",
+  "version": "4.0.0",
+  "description": "-",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uqlibrary/rdm-frontend.git"
   },
+  "private": true,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "dependencies": {
+    "@material-ui/core": "^4.0.0-alpha.8",
+    "@material-ui/icons": "^3.0.2",
+    "@material-ui/styles": "^4.0.0-alpha.8",
+    "babel-polyfill": "^6.26.0",
+    "classnames": "^2.2.6",
+    "fast-deep-equal": "^2.0.1",
+    "fecha": "3.0.3",
+    "isemail": "^3.2.0",
+    "js-cookie": "^2.2.0",
+    "lodash": "^4.17.11",
+    "raven-js": "^3.27.0",
+    "react": "16.8",
+    "react-dom": "16.8",
+    "react-markdown": "^4.0.6",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.0",
+    "react-select": "^2.4.3",
+    "react-stay-scrolled": "^6.0.0",
+    "react-text-mask": "^5.4.3",
+    "typescript": "^3.4.5",
+    "unorm": "^1.5.0",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.7",
+    "@types/jest": "^24.0.11",
+    "@types/js-cookie": "^2.2.2",
+    "@types/lodash": "^4.14.123",
+    "@types/node": "^11.13.7",
+    "@types/raven-js": "^3.10.0",
+    "@types/react": "16.8.14",
+    "@types/react-dom": "^16.8.3",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/react-select": "^2.0.15",
+    "@types/react-text-mask": "^5.4.4",
+    "prettier": "^1.16.4"
+  },
+  "engines": {
+    "npm": ">=3",
+    "node": ">=8"
   },
   "browserslist": {
     "production": [
